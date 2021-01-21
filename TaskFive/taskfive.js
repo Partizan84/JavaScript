@@ -2,8 +2,8 @@
 let arg1,arg2,operation="";
 /**
  * Функция складывает переданные параметры.
- * @param {*} arg1 
- * @param {*} arg2 
+ * @param {number} arg1 
+ * @param {number} arg2 
  */
 function Summa(arg1,arg2){
     let c;
@@ -12,8 +12,8 @@ function Summa(arg1,arg2){
 }
 /**
  * Функция вычитает переданные параметры.
- * @param {*} arg1 
- * @param {*} arg2
+ * @param {number} arg1 
+ * @param {number} arg2
  */
 function Difference(arg1,arg2){
     let c;
