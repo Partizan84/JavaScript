@@ -23,7 +23,8 @@ const post = {
         },
     ]
 }
-сonsole.log(post.author);
+сonsole.log(post.author); //В этой строке выходит ошибка:Uncaught ReferenceError: сonsole is not defined
+//at task2.js:26, никак не могу понять
 console.log(post.comments[0].rating.dislikes);
 console.log(post.comments[1].userId);
 console.log(post.comments[1].text);
