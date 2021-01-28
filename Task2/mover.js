@@ -9,7 +9,7 @@ let mover = {
     getDirection() {
         const availableDirection = [2, 4, 6, 8, 1, 3, 7, 9];
         while (true) {
-            let direction = parseInt(promt('Введите число (2, 4, 6, 8, 1, 3, 7, 9), куда вы хотите переместиться, "Отмена" для выхода.'));
+            let direction = parseInt(prompt('Введите число (2, 4, 6, 8, 1, 3, 7, 9), куда вы хотите переместиться, "Отмена" для выхода.'));
             if (isNaN(direction)) {
                 return null;
             }
@@ -20,7 +20,7 @@ let mover = {
             return direction;
         }
     },
-    getNextPOsition(direction) {
+    getNextPosition(direction) {
         const nextPosition = {
             x: player.x,
             y: player.y
