@@ -28,14 +28,8 @@
 
     <script>
         "use strict";
-        let inputs = document.querySelectorAll('form[action="/feedback]');
+        let inputs = document.querySelectorAll('.card-body .card-link');
         console.log(inputs);
-        for (let i = 0; i < inputs.length; i++) {
-            console.log(inputs[i].value);
-        }
-        inputs.forEach(function(input) {
-            console.log(input.type);
-        });
     </script>
 </body>
 </html>
